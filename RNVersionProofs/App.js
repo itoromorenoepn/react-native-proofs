@@ -24,6 +24,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import RNLocalNotifications from 'react-native-local-notifications';
+
 const App: () => React$Node = () => {
   return (
     <>
